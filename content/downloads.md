@@ -16,7 +16,8 @@ permalink: /downloads/
           htmlString += '<li><a href="https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master${file.path}">${file.name}</a></li>';
         }
         htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML += htmlString;
+        body = document.getElementsByTagName('body')[0].innerHTML;
+        document.getElementsByTagName('body')[0].innerHTML = body + htmlString;
       })()
     </script>
   <body>
