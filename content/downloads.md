@@ -11,9 +11,9 @@ permalink: /downloads/
       (async () => {
         const response = await fetch('https://api.github.com/repos/{{ site.user }}/{{ site.user }}.github.io/contents/downloads/');
         const data = await response.json();
-        let htmlString = "<ul>";
+        let htmlString = '<ul>';
         for (let file of data) {
-          htmlString += str.concat("<li><a href=\"https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master",${file.path},"\">",${file.name},"</a></li>");
+          htmlString += str.concat('<li><a href="https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master',${file.path},'">',${file.name},'</a></li>');
         }
         htmlString += '</ul>';
         <!-- body = document.getElementsByTagName('body')[0].innerHTML; -->
