@@ -4,3 +4,4 @@ Disallow: /content/
 Disallow: /downloads/
 Disallow: /skydrive/
 Disallow: /skyview/
+Disallow: /images/
