@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Michael Schneider
+
+# TECHNOLOGY COLOPHON
+
+    JEKYLL
