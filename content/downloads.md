@@ -5,8 +5,8 @@ permalink: /downloads/
 
 ## Downloads
 
-<!-- <html> -->
-  <!-- <body> -->
+<html>
+  [> <body> <]
     <script>
       (async () => {
         const response = await fetch('https://api.github.com/repos/{{ site.user }}/{{ site.user }}.github.io/contents/downloads/');
@@ -16,8 +16,8 @@ permalink: /downloads/
           htmlString += '<li><a href="https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master${file.path}">${file.name}</a></li>';
         }
         htmlString += '</ul>';
-        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+        document.getElementsByTagName('body')[0].innerHTML += htmlString;
       })()
     </script>
-  <!-- <body> -->
-<!-- </html> -->
+  <body>
+</html>
