@@ -9,7 +9,7 @@ permalink: /downloads/
   <body>
     <script>
       (async () => {
-        const response = await fetch('https://api.github.com/repos/:user/:repo/downloads/');
+        const response = await fetch('https://api.github.com/repos/:user/:repo/contents/downloads/');
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
