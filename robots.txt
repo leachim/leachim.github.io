@@ -2,6 +2,6 @@ User-agent: *
 Disallow: /contact/
 Disallow: /content/
 Disallow: /downloads/
+Disallow: /images/
 Disallow: /skydrive/
 Disallow: /skyview/
-Disallow: /images/
