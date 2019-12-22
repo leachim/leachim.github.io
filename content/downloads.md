@@ -13,7 +13,7 @@ permalink: /downloads/
         const data = await response.json();
         let htmlString = '<ul>';
         for (let file of data) {
-          htmlString += `<li><a href="https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master${file.path}">${file.name}</a></li>`;
+          htmlString += '<li><a href="https://github.com/{{ site.user }}/{{ site.user }}.github.io/blob/master${file.path}">${file.name}</a></li>';
         }
         htmlString += '</ul>';
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
