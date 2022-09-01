@@ -7,4 +7,3 @@ permalink: /interests/
 
 - reading books
 - revelling in daydreams
-- riding wild horses
