@@ -5,3 +5,4 @@ Disallow: /downloads/
 Disallow: /images/
 Disallow: /skydrive/
 Disallow: /skyview/
+Disallow: /scribble/
