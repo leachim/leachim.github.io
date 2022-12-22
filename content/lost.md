@@ -1,5 +1,7 @@
 ---
-permalink: /content/encrypted/restore.html
+permalink: /restore.html
 ---
 
 Give me a second life.
+<meta http-equiv="refresh" content="0; URL=https://mi-schneider.de/content/encrypted/restore.html">
+
