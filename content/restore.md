@@ -1,5 +1,5 @@
 ---
-permalink: /lost/
+permalink: /restore/
 ---
 
 Give me a second life.
