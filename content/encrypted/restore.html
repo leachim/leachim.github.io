@@ -68,7 +68,7 @@ It uses your browser's cryptograpy APIs to decrypt it, if you know the password.
   </style>
   <script>
   // Display the encryption inputs on the page (invoked during body onload)
-  async function loadValues() {
+  async function init() {
     document.getElementById("secret_type").innerHTML = secretType
     document.getElementById("salt").setAttribute("value", saltHex)
     document.getElementById("iv").setAttribute("value", ivHex)
@@ -77,6 +77,13 @@ It uses your browser's cryptograpy APIs to decrypt it, if you know the password.
     if (secretType == 'file') {
       document.getElementById("target_file").innerHTML = `Download file.${secretExt}`
     }
+
+    document.getElementById("password").addEventListener("keydown", (event) => {
+      // Decrypt when the user hits the Enter key after entering their password.
+      if (event.key === "Enter") {
+        decrypt();
+      }
+    })
   }
 
   // Invoked when the 'Decrypt' button is pressed
@@ -210,9 +217,10 @@ It uses your browser's cryptograpy APIs to decrypt it, if you know the password.
   function setMessage(msg) {
     document.getElementById("errormsg").innerHTML = msg
   }
+
   </script>
 </head>
-<body onload="loadValues()">
+<body onload="init()">
 
   <h1>This page contains a secret <span id="secret_type"></span></h1>
   <h2>Enter the password to decrypt it</h2>
@@ -279,8 +287,9 @@ const saltSize   = 16  // bytes
 const blockSize  = 16 // bytes
 const keySize    = 32   // bytes
 const iterations = 1000000
-const saltHex    = "6ce403b2d92842674849e9b798f1a1bb"
-const ivHex      = "db48414f35453a87a3db014850e412b7"
-const cipherHex  = "2992706e3d9154a6ba71cbd42f1c7594b9e7ac12112ea54386abab70164746e6cc084bbc19d3966e94be6fdb061dd9f6c24c8de4b8716bfefdc639a0b64b722a4250529bc4313e372c8a2abfbad28135d84e9f74ee9cb34b91403e308788480e6a65c4c5481581b6774fc10ac75ff48c24c2a9b410e2bfa6c6f87cf93b4c2ff7adb17d830c98a80e601a1f5b52812b13"
+const saltHex    = "4a0e9949bf41537cd437c38f9af46bf9"
+const ivHex      = "d04ba44233a04a23c823ff3deee6dd3e"
+const cipherHex  = "0b6a6e7a0780909e10c8cc6f87afc60a4fc63c5d56ce82e792c8cce9406978d48115cede4aa7a3541a66e73276dddf9b12a94827a1a19f8f966f559e04b309fe9c88f9f3708384c80cab790bd8aa8ae664dd02427a63bd7f2855815f5a8cb88c04b0c545aacbdcfbfab90b9a494d448a3f654603c063dc3841ab1555d16ad62c7b460a122d6e22c6f72e8dd445925e93583160508e2598fea563bb96f0755c34eb6b9ac62a9eb7bdeffcf61926eea218"
+
 </script>
 </html>
