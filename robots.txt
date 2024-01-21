@@ -7,3 +7,4 @@ Disallow: /skydrive/
 Disallow: /skyview/
 Disallow: /skycam/
 Disallow: /scribble/
+Disallow: /links/
