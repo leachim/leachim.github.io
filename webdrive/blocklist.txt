@@ -1,5 +1,6 @@
 ! Title: custom uBlock Origin blocklist
 ! Expires: 1 days
+! License: https://creativecommons.org/licenses/by-sa/4.0/
 ! Homepage: https://github.com/leachim/
 
 ! url-param-remover
