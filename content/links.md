@@ -12,3 +12,4 @@ permalink: /links/
 - skycam
 - skydrive
 - skyview
+- photos
