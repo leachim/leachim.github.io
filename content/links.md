@@ -13,3 +13,4 @@ permalink: /links/
 - skydrive
 - skyview
 - photos
+- media
