@@ -1,5 +1,5 @@
 ---
-permalink: /lost/
+permalink: /media/
 ---
 
 media
