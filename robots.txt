@@ -3,11 +3,12 @@ Disallow: /contact/
 Disallow: /content/
 Disallow: /downloads/
 Disallow: /images/
+Disallow: /links/
+Disallow: /lost/
+Disallow: /photos/
+Disallow: /recovery/
+Disallow: /scribble/
 Disallow: /skydrive/
 Disallow: /skyview/
 Disallow: /skycam/
 Disallow: /skyone/
-Disallow: /recovery/
-Disallow: /lost/
-Disallow: /scribble/
-Disallow: /links/

@@ -7,9 +7,9 @@ permalink: /links/
 
 
 - lost
-- restore
+- recovery
 - scribble
-- skycam
+- skyone
 - skydrive
 - skyview
 - photos

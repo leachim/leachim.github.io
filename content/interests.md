@@ -5,5 +5,6 @@ permalink: /interests/
 
 ## Interests
 
-- reading books
+- reading and listening to books
+- learning new stuff
 - revelling in daydreams
