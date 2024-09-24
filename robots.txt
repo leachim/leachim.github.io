@@ -6,5 +6,8 @@ Disallow: /images/
 Disallow: /skydrive/
 Disallow: /skyview/
 Disallow: /skycam/
+Disallow: /skyone/
+Disallow: /recovery/
+Disallow: /lost/
 Disallow: /scribble/
 Disallow: /links/
