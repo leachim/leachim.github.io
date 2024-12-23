@@ -12,3 +12,4 @@ Disallow: /skydrive/
 Disallow: /skyview/
 Disallow: /skycam/
 Disallow: /skyone/
+Disallow: /watchme/
