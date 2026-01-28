@@ -1,5 +1,5 @@
 ---
-permalink: /eatme/
+permalink: /eatmedata/
 ---
 
 Watch food and drink options

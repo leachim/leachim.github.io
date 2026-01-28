@@ -1,5 +1,5 @@
 ---
-permalink: /watchme/
+permalink: /watchmedata/
 ---
 
 View media entries.
